@@ -1,0 +1,13 @@
+---
+alwaysApply: true
+---
+
+<!-- SPECKIT START -->
+For additional context about technologies to be used, project structure,
+shell commands, and other important information, read the current plan:
+
+- **Active plan**: `specs/002-add-test-md/plan.md`
+- **Spec**: `specs/002-add-test-md/spec.md`
+- **Quickstart**: `specs/002-add-test-md/quickstart.md`
+- **Contract**: `specs/002-add-test-md/contracts/test-md-schema.md`
+<!-- SPECKIT END -->
