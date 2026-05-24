@@ -1,0 +1,32 @@
+[
+  {
+    "ordinal": 1,
+    "source_kind": "provider",
+    "source_ref": "github://kzay/codalith-testing/specs/002-add-test-md/plan.md",
+    "workspace_relative_path": ".codalith/context/001-provider-plan.md"
+  },
+  {
+    "ordinal": 2,
+    "source_kind": "provider",
+    "source_ref": "github://kzay/codalith-testing/specs/002-add-test-md/spec.md",
+    "workspace_relative_path": ".codalith/context/002-provider-spec.md"
+  },
+  {
+    "ordinal": 3,
+    "source_kind": "provider",
+    "source_ref": "github://kzay/codalith-testing/specs/002-add-test-md/tasks.md",
+    "workspace_relative_path": ".codalith/context/003-provider-tasks.md"
+  },
+  {
+    "ordinal": 4,
+    "source_kind": "repository",
+    "source_ref": "github://kzay/codalith-testing/scripts/validate.sh",
+    "workspace_relative_path": ".codalith/context/004-repository-validate.sh"
+  },
+  {
+    "ordinal": 5,
+    "source_kind": "repository",
+    "source_ref": "github://kzay/codalith-testing/README.md",
+    "workspace_relative_path": ".codalith/context/005-repository-README.md"
+  }
+]
