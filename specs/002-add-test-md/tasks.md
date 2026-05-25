@@ -27,9 +27,9 @@ description: "Task list for Add test.md Marker File"
 
 **Purpose**: Confirm environment and load design constraints before writing `test.md`
 
-- [ ] T001 Verify repository root contains `README.md` per `specs/002-add-test-md/plan.md` structure
-- [ ] T002 [P] Review date and model conventions in `specs/002-add-test-md/research.md`
-- [ ] T003 [P] Review required field schema in `specs/002-add-test-md/contracts/test-md-schema.md`
+- [x] T001 Verify repository root contains `README.md` per `specs/002-add-test-md/plan.md` structure
+- [x] T002 [P] Review date and model conventions in `specs/002-add-test-md/research.md`
+- [x] T003 [P] Review required field schema in `specs/002-add-test-md/contracts/test-md-schema.md`
 
 ---
 
@@ -39,8 +39,8 @@ description: "Task list for Add test.md Marker File"
 
 **⚠️ CRITICAL**: No user story work until this phase is complete
 
-- [ ] T004 Confirm `MarkerFile` entity rules in `specs/002-add-test-md/data-model.md` apply to `test.md` at repository root
-- [ ] T005 Check whether `test.md` exists at repository root and note overwrite vs create intent per spec edge cases
+- [x] T004 Confirm `MarkerFile` entity rules in `specs/002-add-test-md/data-model.md` apply to `test.md` at repository root
+- [x] T005 Check whether `test.md` exists at repository root and note overwrite vs create intent per spec edge cases
 
 **Checkpoint**: Target path `test.md` at repository root is confirmed; ready to write file
 
@@ -54,10 +54,10 @@ description: "Task list for Add test.md Marker File"
 
 ### Implementation for User Story 1
 
-- [ ] T006 [US1] Create or overwrite `test.md` at repository root with Markdown structure per `specs/002-add-test-md/contracts/test-md-schema.md`
-- [ ] T007 [US1] Add placeholder prose (≥20 characters, not copied from `README.md` or spec docs) to `test.md` at repository root
-- [ ] T008 [US1] Add `Date: YYYY-MM-DD` labeled field to `test.md` at repository root using generation-day calendar date
-- [ ] T009 [US1] Add `Model: Composer` (or `Model: unknown` fallback) labeled field to `test.md` at repository root
+- [x] T006 [US1] Create or overwrite `test.md` at repository root with Markdown structure per `specs/002-add-test-md/contracts/test-md-schema.md`
+- [x] T007 [US1] Add placeholder prose (≥20 characters, not copied from `README.md` or spec docs) to `test.md` at repository root
+- [x] T008 [US1] Add `Date: YYYY-MM-DD` labeled field to `test.md` at repository root using generation-day calendar date
+- [x] T009 [US1] Add `Model: Composer` (or `Model: unknown` fallback) labeled field to `test.md` at repository root
 
 **Checkpoint**: User Story 1 complete — `test.md` satisfies FR-001 through FR-005 and contract rules C-001 through C-004
 
@@ -67,8 +67,8 @@ description: "Task list for Add test.md Marker File"
 
 **Purpose**: Validate deliverable against quickstart and existing smoke script
 
-- [ ] T010 Run manual verification steps in `specs/002-add-test-md/quickstart.md` against `test.md` at repository root
-- [ ] T011 [P] Run `scripts/validate.sh` from repository root and confirm smoke output passes
+- [x] T010 Run manual verification steps in `specs/002-add-test-md/quickstart.md` against `test.md` at repository root
+- [x] T011 [P] Run `scripts/validate.sh` from repository root and confirm smoke output passes
 
 ---
 
