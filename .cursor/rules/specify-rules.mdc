@@ -6,8 +6,8 @@ alwaysApply: true
 For additional context about technologies to be used, project structure,
 shell commands, and other important information, read the current plan:
 
-- **Active plan**: `specs/002-add-test-md/plan.md`
-- **Spec**: `specs/002-add-test-md/spec.md`
-- **Quickstart**: `specs/002-add-test-md/quickstart.md`
-- **Contract**: `specs/002-add-test-md/contracts/test-md-schema.md`
+- **Active plan**: `specs/003-ts-reverse-loop/plan.md`
+- **Spec**: `specs/003-ts-reverse-loop/spec.md`
+- **Quickstart**: `specs/003-ts-reverse-loop/quickstart.md`
+- **Contract**: `specs/003-ts-reverse-loop/contracts/reverse-count-schema.md`
 <!-- SPECKIT END -->
