@@ -1,0 +1,13 @@
+{
+  "name": "codalith-testing",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/reverseCount.ts",
+    "verify:sequence": "node --import tsx -e \"import { buildReverseCountSequence } from './src/reverseCount.ts'; const s = buildReverseCountSequence(); console.assert(JSON.stringify(s) === '[10,9,8,7,6,5,4,3,2,1,0]', 'sequence mismatch'); console.log('OK:', JSON.stringify(s));\""
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0"
+  }
+}
