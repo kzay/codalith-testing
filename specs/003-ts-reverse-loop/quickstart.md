@@ -43,10 +43,10 @@ Expected stdout (spacing may vary):
 
 ## Pass criteria (maps to spec SC-001–SC-004)
 
-- [ ] `src/reverseCount.ts` exists
-- [ ] Exported function returns exactly 11 integers, 10 down to 0
-- [ ] Direct execution prints the full sequence
-- [ ] Import from another file succeeds without duplicate loop code
+- [x] `src/reverseCount.ts` exists
+- [x] Exported function returns exactly 11 integers, 10 down to 0
+- [x] Direct execution prints the full sequence
+- [x] Import from another file succeeds without duplicate loop code
 
 ## Next command
 
