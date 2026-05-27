@@ -17,9 +17,9 @@ description: "Task list for TypeScript reverse count iterator feature"
 
 **Purpose**: Minimal TypeScript/Node toolchain for the repository
 
-- [ ] T001 Create `src/` directory at repository root
-- [ ] T002 Add `package.json` with `typescript` and `tsx` devDependencies and a `start` script pointing to `src/reverseCount.ts` in repository root
-- [ ] T003 [P] Add `tsconfig.json` with ES module settings suitable for Node 18+ in repository root
+- [x] T001 Create `src/` directory at repository root
+- [x] T002 Add `package.json` with `typescript` and `tsx` devDependencies and a `start` script pointing to `src/reverseCount.ts` in repository root
+- [x] T003 [P] Add `tsconfig.json` with ES module settings suitable for Node 18+ in repository root
 
 ---
 
@@ -29,7 +29,7 @@ description: "Task list for TypeScript reverse count iterator feature"
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete
 
-- [ ] T004 Create `src/reverseCount.ts` with exported function stub `buildReverseCountSequence()` returning empty array in `src/reverseCount.ts`
+- [x] T004 Create `src/reverseCount.ts` with exported function stub `buildReverseCountSequence()` returning empty array in `src/reverseCount.ts`
 
 **Checkpoint**: Module file exists and exports the contract symbol name
 
@@ -44,8 +44,8 @@ description: "Task list for TypeScript reverse count iterator feature"
 
 ### Implementation for User Story 1
 
-- [ ] T005 [US1] Implement descending loop (10 to 0 inclusive) in `buildReverseCountSequence()` in `src/reverseCount.ts`
-- [ ] T006 [US1] Add direct-run entry point that prints comma-separated sequence to stdout in `src/reverseCount.ts`
+- [x] T005 [US1] Implement descending loop (10 to 0 inclusive) in `buildReverseCountSequence()` in `src/reverseCount.ts`
+- [x] T006 [US1] Add direct-run entry point that prints comma-separated sequence to stdout in `src/reverseCount.ts`
 
 **Checkpoint**: User Story 1 fully functional via entry-point execution
 
@@ -60,8 +60,8 @@ description: "Task list for TypeScript reverse count iterator feature"
 
 ### Implementation for User Story 2
 
-- [ ] T007 [US2] Ensure `buildReverseCountSequence()` returns a new array instance on each call in `src/reverseCount.ts`
-- [ ] T008 [P] [US2] Add npm script `verify:sequence` in `package.json` that runs a one-liner import assert per `specs/003-ts-reverse-loop/quickstart.md`
+- [x] T007 [US2] Ensure `buildReverseCountSequence()` returns a new array instance on each call in `src/reverseCount.ts`
+- [x] T008 [P] [US2] Add npm script `verify:sequence` in `package.json` that runs a one-liner import assert per `specs/003-ts-reverse-loop/quickstart.md`
 
 **Checkpoint**: Import and programmatic verification both succeed
 
@@ -71,8 +71,8 @@ description: "Task list for TypeScript reverse count iterator feature"
 
 **Purpose**: Documentation and validation alignment
 
-- [ ] T009 [P] Add feature note and run instructions to `README.md` referencing `specs/003-ts-reverse-loop/quickstart.md`
-- [ ] T010 Run quickstart verification steps in `specs/003-ts-reverse-loop/quickstart.md` and confirm SC-001–SC-004 pass
+- [x] T009 [P] Add feature note and run instructions to `README.md` referencing `specs/003-ts-reverse-loop/quickstart.md`
+- [x] T010 Run quickstart verification steps in `specs/003-ts-reverse-loop/quickstart.md` and confirm SC-001–SC-004 pass
 
 ---
 
