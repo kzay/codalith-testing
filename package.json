@@ -1,0 +1,14 @@
+{
+  "name": "codalith-testing",
+  "version": "1.0.0",
+  "description": "TypeScript reverse count iterator",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx src/reverseCount.ts",
+    "verify:sequence": "node --import tsx -e \"import { buildReverseCountSequence } from './src/reverseCount.ts'; const seq = buildReverseCountSequence(); const expected = [10,9,8,7,6,5,4,3,2,1,0]; const ok = JSON.stringify(seq) === JSON.stringify(expected); console.log(JSON.stringify(seq)); if (!ok) { console.error('FAIL: sequence mismatch'); process.exit(1); } console.error('PASS');\""
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0"
+  }
+}
